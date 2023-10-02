@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="utf-8">
+  <meta property="og:locale" content="he_IL">
+  <title>הקצאות קרקע - רעננה</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+  <!-- inline style: -->
+  <style>
+    html, body, iframe {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+      direction: rtl;
+    }
+    * {
+        box-sizing: border-box;
+    }
+    .legend {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 250px;
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 10px 10px;
+      font-family: Arial, sans-serif;
+      font-size: 12px;
+      line-height: 16px;
+      color: #333;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    .legend-title {
+      text-align: right;
+      font-size: 14px;
+      font-weight: 600;
+      margin: 0;
+      margin-bottom: 10px;
+    }
+    .items {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: flex-start;
+      gap: 10px;
+    }
+    .item {
+      display: flex;
+      flex-flow: row;
+      align-items: center;
+      gap: 10px;
+      width: 120px;
+      flex: 0 0 auto;
+    }
+    .item .color {
+      width: 20px;
+      height: 20px;
+      margin-right: 5px;
+    }
+    .legend-explanation {
+        p {
+            text-align: right;
+            font-size: 12px;
+            margin: 0;
+            margin-top: 10px;
+        }
+    }
+    @media (max-width: 500px) {
+      .legend {
+        width: 100%;
+        max-width: 100%;
+      }
+    }
+  </style>
+  
+</head>
+<body>
+    <iframe width='100%' height='100%' src="https://api.mapbox.com/styles/v1/akariv/cln749hin03cd01r42gvt4uuh.html?title=false&access_token=pk.eyJ1IjoiYWthcml2IiwiYSI6ImNqMWdkMXd0MzAwMGgycXV4dDVhNWUzam4ifQ.0Q6N5ch8nrnp5sLnCpDYZQ&zoomwheel=true#13/32.17805/34.87035" title="הקצאות קרקע ברעננה" style="border:none;"></iframe>
+    <div class='legend'>
+        <div class='legend-title'>מקרא</div>
+        <div class='items'>
+            <div class='item'>
+                <div class='color' style='background-color: rgb(255, 192, 66);'></div>
+                <div class='text'>מתחם חירום</div>
+            </div>
+            <div class='item'>
+                <div class='color' style='background-color: rgb(77, 198, 255);'></div>
+                <div class='text'>ספורט</div>
+            </div>
+            <div class='item'>
+                <div class='color' style='background-color: rgb(29, 143, 0);'></div>
+                <div class='text'>חינוך</div>
+            </div>
+            <div class='item'>
+                <div class='color' style='background-color: rgb(0, 97, 224);'></div>
+                <div class='text'>בריאות</div>
+            </div>
+            <div class='item'>
+                <div class='color' style='background-color: rgb(135, 0, 189);'></div>
+                <div class='text'>רווחה</div>
+            </div>
+            <div class='item'>
+                <div class='color' style='background-color: rgb(158, 0, 0);'></div>
+                <div class='text'>בית כנסת / דת</div>
+            </div>
+            <div class='item'>
+                <div class='color' style='background-color: rgb(255, 128, 128);'></div>
+                <div class='text'>תנועת נוער</div>
+            </div>
+        </div>
+        <div class='legend-explanation'>
+            <p>ניתן להתקרב למפה ע״מ לראות סטטוס מפורט.</p>
+            <p>הסטטוסים: לא הוגשה בקשה / הוגשה בקשה  / פרסום ראשון / דיון על התנגדויות / אחרי התנגדויות / הושלם</p>
+            <p>חלק מן ההקצאות המופיעות כאן הן הסדרה לפי נוהל מעודכן של הקצאות עבר.</p>
+        </div>
+    </div>    
+</body>
+</html>
